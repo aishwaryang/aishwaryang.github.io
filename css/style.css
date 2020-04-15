@@ -1,4 +1,3 @@
-
     body,html{
         height: 100%;
     }
@@ -113,10 +112,30 @@
     margin: 0px 8px;
     transition: all 0.5s;
 }
-.b-part3 .fa:hover {
+/* .b-part3 .fa:hover {
     border: 2px solid #0062cc;
+} */
+.b-part3 .fa-facebook:hover {
+    color: #4867aa;
+    border: 2px solid #4867aa;
 }
 
+.b-part3 .fa-linkedin:hover {
+    color: #4867aa;
+    border: 2px solid #4867aa;
+}
+.b-part3 .fa-twitter:hover {
+    color: #55acee;
+    border: 2px solid #55acee;
+}
+.b-part3 .fa-github:hover {
+    color: #9f9e9c;
+    border: 2px solid #9f9e9c;
+}
+.b-part3 .fa-stack-overflow:hover {
+    color: #f48024;
+    border: 2px solid #f48024;
+}
 
     /* navigation */
 
@@ -347,7 +366,7 @@
 
     .mainpage{
 
-        opacity: 0.5;
+        opacity: 0.9;
     }
 
     .name{
@@ -388,7 +407,7 @@
         margin-top: 11px;
     }
     .about h1{
-    margin-left: 50px;
+    margin-left: 10px;
     }
     .about p {
         line-height: 25px;
@@ -410,10 +429,33 @@
     /* my-icons */
 
     .my-icon {
-        top: 350px;
+        top: 300px;
     }
     .b-part3 .fa {
         width: 25%;
         margin: 7px 8px;
     }
+
+    .b-part3 .fa-facebook:hover {
+        color: #4867aa;
+        border: 2px solid #4867aa;
     }
+    
+    .b-part3 .fa-linkedin:hover {
+        color: #4867aa;
+        border: 2px solid #4867aa;
+    }
+    .b-part3 .fa-twitter:hover {
+        color: #55acee;
+        border: 2px solid #55acee;
+    }
+    .b-part3 .fa-github:hover {
+        color: #9f9e9c;
+        border: 2px solid #9f9e9c;
+    }
+    .b-part3 .fa-stack-overflow:hover {
+        color: #f48024;
+        border: 2px solid #f48024;
+    }
+
+}
